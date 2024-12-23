@@ -22,7 +22,7 @@ function checkButtons(
     firstButton.disabled = true;
   }
 
-  if (count !== secondValue && secondButton.disabled) {
+  if (secondButton.disabled && count !== secondValue) {
     secondButton.disabled = false;
   }
 }
